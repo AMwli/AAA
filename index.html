@@ -3,214 +3,226 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plan de Estudios - Psicología</title>
+    <title>Malla Curricular - Psicología</title>
     <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <h1>Plan de Estudios de Psicología</h1>
+        <h1>Malla Curricular de Psicología</h1>
         
-        <div class="semester" id="semester1">
-            <h2>I Semestre</h2>
-            <div class="courses-grid">
-                <div class="course" data-id="filosofia" data-opens="epistemologia">
-                    <div class="course-content">Filosofía</div>
-                </div>
-                <div class="course" data-id="psicologia" data-opens="procesos-psicologicos">
-                    <div class="course-content">Psicología</div>
-                </div>
-                <div class="course" data-id="metodos-investigacion">
-                    <div class="course-content">Métodos de la investigación social</div>
-                </div>
-                <div class="course" data-id="historia-chile">
-                    <div class="course-content">Historia social de Chile</div>
-                </div>
-                <div class="course" data-id="psicobiologia" data-opens="neurofisiologia">
-                    <div class="course-content">Psicobiología</div>
-                </div>
-                <div class="course" data-id="transversal1">
-                    <div class="course-content">Curso transversal Facso 1</div>
-                </div>
-                <div class="course" data-id="ingles1" data-opens="ingles2">
-                    <div class="course-content">Inglés I</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="semester" id="semester2">
-            <h2>II Semestre</h2>
-            <div class="courses-grid">
-                <div class="course locked" data-id="epistemologia">
-                    <div class="course-content">Epistemología de las ciencias sociales</div>
-                </div>
-                <div class="course locked" data-id="personalidad" data-opens="psicopatologia">
-                    <div class="course-content">Psicología de la personalidad</div>
-                </div>
-                <div class="course locked" data-id="procesos-psicologicos">
-                    <div class="course-content">Procesos psicológicos básicos</div>
-                </div>
-                <div class="course locked" data-id="estadistica1" data-opens="estadistica2">
-                    <div class="course-content">Estadística I</div>
-                </div>
-                <div class="course locked" data-id="aprendizaje">
-                    <div class="course-content">Procesos básicos de aprendizaje</div>
-                </div>
-                <div class="course locked" data-id="cfg">
-                    <div class="course-content">CFG</div>
-                </div>
-                <div class="course locked" data-id="ingles2" data-opens="ingles3">
-                    <div class="course-content">Inglés II</div>
+        <div class="semesters-container">
+            <!-- I Semestre -->
+            <div class="semester">
+                <h2>I Semestre</h2>
+                <div class="courses-grid">
+                    <div class="course available" data-id="filosofia" data-opens="epistemologia">
+                        Filosofía
+                    </div>
+                    <div class="course available" data-id="psicologia" data-opens="procesos-psicologicos">
+                        Psicología
+                    </div>
+                    <div class="course available" data-id="metodos-investigacion">
+                        Métodos investigación
+                    </div>
+                    <div class="course available" data-id="historia-chile">
+                        Historia Chile
+                    </div>
+                    <div class="course available" data-id="psicobiologia" data-opens="neurofisiologia">
+                        Psicobiología
+                    </div>
+                    <div class="course available" data-id="transversal1">
+                        Transversal 1
+                    </div>
+                    <div class="course available" data-id="ingles1" data-opens="ingles2">
+                        Inglés I
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="semester" id="semester3">
-            <h2>III Semestre</h2>
-            <div class="courses-grid">
-                <div class="course locked" data-id="teorias-sistemas">
-                    <div class="course-content">Teorías y sistemas psicológicos</div>
-                </div>
-                <div class="course locked" data-id="psicopatologia" data-opens="psiquiatria">
-                    <div class="course-content">Psicopatología</div>
-                </div>
-                <div class="course locked" data-id="desarrollo1" data-opens="desarrollo2">
-                    <div class="course-content">Psicología del desarrollo I</div>
-                </div>
-                <div class="course locked" data-id="estadistica2">
-                    <div class="course-content">Estadística II</div>
-                </div>
-                <div class="course locked" data-id="social1" data-opens="social2 trabajo-organizaciones">
-                    <div class="course-content">Psicología social I</div>
-                </div>
-                <div class="course locked" data-id="neurofisiologia" data-opens="neurociencia">
-                    <div class="course-content">Neurofisiología</div>
-                </div>
-                <div class="course locked" data-id="ingles3" data-opens="ingles4">
-                    <div class="course-content">Inglés III</div>
+            <!-- II Semestre -->
+            <div class="semester">
+                <h2>II Semestre</h2>
+                <div class="courses-grid">
+                    <div class="course locked" data-id="epistemologia">
+                        Epistemología
+                    </div>
+                    <div class="course locked" data-id="personalidad" data-opens="psicopatologia">
+                        Personalidad
+                    </div>
+                    <div class="course locked" data-id="procesos-psicologicos">
+                        Procesos Psicológicos
+                    </div>
+                    <div class="course locked" data-id="estadistica1" data-opens="estadistica2">
+                        Estadística I
+                    </div>
+                    <div class="course locked" data-id="aprendizaje">
+                        Aprendizaje
+                    </div>
+                    <div class="course locked" data-id="cfg">
+                        CFG
+                    </div>
+                    <div class="course locked" data-id="ingles2" data-opens="ingles3">
+                        Inglés II
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="semester" id="semester4">
-            <h2>IV Semestre</h2>
-            <div class="courses-grid">
-                <div class="course locked" data-id="evaluacion" data-opens="juridica">
-                    <div class="course-content">Introducción a la evaluación psicológica</div>
-                </div>
-                <div class="course locked" data-id="psiquiatria" data-opens="clinica">
-                    <div class="course-content">Psiquiatría</div>
-                </div>
-                <div class="course locked" data-id="desarrollo2" data-opens="educacional">
-                    <div class="course-content">Psicología del desarrollo II</div>
-                </div>
-                <div class="course locked" data-id="cualitativa">
-                    <div class="course-content">Metodología cualitativa</div>
-                </div>
-                <div class="course locked" data-id="social2" data-opens="comunitaria educacional">
-                    <div class="course-content">Psicología social II</div>
-                </div>
-                <div class="course locked" data-id="neurociencia">
-                    <div class="course-content">Neurociencia cognitiva</div>
-                </div>
-                <div class="course locked" data-id="deportivo">
-                    <div class="course-content">Curso deportivo/artístico</div>
-                </div>
-                <div class="course locked" data-id="ingles4">
-                    <div class="course-content">Inglés IV</div>
-                </div>
-                <div class="course locked" data-id="transversal2">
-                    <div class="course-content">Curso transversal Facso II</div>
+            <!-- III Semestre -->
+            <div class="semester">
+                <h2>III Semestre</h2>
+                <div class="courses-grid">
+                    <div class="course locked" data-id="teorias-sistemas">
+                        Teorías Psicológicas
+                    </div>
+                    <div class="course locked" data-id="psicopatologia" data-opens="psiquiatria">
+                        Psicopatología
+                    </div>
+                    <div class="course locked" data-id="desarrollo1" data-opens="desarrollo2">
+                        Desarrollo I
+                    </div>
+                    <div class="course locked" data-id="estadistica2">
+                        Estadística II
+                    </div>
+                    <div class="course locked" data-id="social1" data-opens="social2 trabajo-organizaciones">
+                        Social I
+                    </div>
+                    <div class="course locked" data-id="neurofisiologia" data-opens="neurociencia">
+                        Neurofisiología
+                    </div>
+                    <div class="course locked" data-id="ingles3" data-opens="ingles4">
+                        Inglés III
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="semester" id="semester5">
-            <h2>V Semestre</h2>
-            <div class="courses-grid">
-                <div class="course locked" data-id="trabajo-organizaciones">
-                    <div class="course-content">Psicología del trabajo y las organizaciones</div>
-                </div>
-                <div class="course locked" data-id="clinica">
-                    <div class="course-content">Psicología clínica</div>
-                </div>
-                <div class="course locked" data-id="educacional">
-                    <div class="course-content">Psicología educacional</div>
-                </div>
-                <div class="course locked" data-id="juridica">
-                    <div class="course-content">Psicología jurídica</div>
-                </div>
-                <div class="course locked" data-id="comunitaria">
-                    <div class="course-content">Psicología comunitaria</div>
+            <!-- IV Semestre -->
+            <div class="semester">
+                <h2>IV Semestre</h2>
+                <div class="courses-grid">
+                    <div class="course locked" data-id="evaluacion" data-opens="juridica">
+                        Evaluación
+                    </div>
+                    <div class="course locked" data-id="psiquiatria" data-opens="clinica">
+                        Psiquiatría
+                    </div>
+                    <div class="course locked" data-id="desarrollo2" data-opens="educacional">
+                        Desarrollo II
+                    </div>
+                    <div class="course locked" data-id="cualitativa">
+                        Cualitativa
+                    </div>
+                    <div class="course locked" data-id="social2" data-opens="comunitaria educacional">
+                        Social II
+                    </div>
+                    <div class="course locked" data-id="neurociencia">
+                        Neurociencia
+                    </div>
+                    <div class="course locked" data-id="deportivo">
+                        Deportivo/Artístico
+                    </div>
+                    <div class="course locked" data-id="ingles4">
+                        Inglés IV
+                    </div>
+                    <div class="course locked" data-id="transversal2">
+                        Transversal II
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="semester" id="semester6">
-            <h2>VI Semestre</h2>
-            <div class="courses-grid">
-                <div class="course locked" data-id="optativos1">
-                    <div class="course-content">Cursos optativos</div>
-                </div>
-                <div class="course locked" data-id="transversal3">
-                    <div class="course-content">Curso transversal Facso III</div>
+            <!-- V Semestre -->
+            <div class="semester">
+                <h2>V Semestre</h2>
+                <div class="courses-grid">
+                    <div class="course locked" data-id="trabajo-organizaciones">
+                        Trabajo/Organizaciones
+                    </div>
+                    <div class="course locked" data-id="clinica">
+                        Clínica
+                    </div>
+                    <div class="course locked" data-id="educacional">
+                        Educacional
+                    </div>
+                    <div class="course locked" data-id="juridica">
+                        Jurídica
+                    </div>
+                    <div class="course locked" data-id="comunitaria">
+                        Comunitaria
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="semester" id="semester7">
-            <h2>VII Semestre</h2>
-            <div class="courses-grid">
-                <div class="course locked" data-id="seminario1" data-opens="seminario2">
-                    <div class="course-content">Seminario de grado I</div>
-                </div>
-                <div class="course locked" data-id="optativos2">
-                    <div class="course-content">Cursos optativos</div>
-                </div>
-                <div class="course locked" data-id="transversal4">
-                    <div class="course-content">Curso transversal Facso IV</div>
+            <!-- VI Semestre -->
+            <div class="semester">
+                <h2>VI Semestre</h2>
+                <div class="courses-grid">
+                    <div class="course locked" data-id="optativos1">
+                        Optativos
+                    </div>
+                    <div class="course locked" data-id="transversal3">
+                        Transversal III
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="semester" id="semester8">
-            <h2>VIII Semestre</h2>
-            <div class="courses-grid">
-                <div class="course locked" data-id="seminario2">
-                    <div class="course-content">Seminario de grado II</div>
-                </div>
-                <div class="course locked" data-id="optativos3">
-                    <div class="course-content">Cursos optativos</div>
+            <!-- VII Semestre -->
+            <div class="semester">
+                <h2>VII Semestre</h2>
+                <div class="courses-grid">
+                    <div class="course locked" data-id="seminario1" data-opens="seminario2">
+                        Seminario I
+                    </div>
+                    <div class="course locked" data-id="optativos2">
+                        Optativos
+                    </div>
+                    <div class="course locked" data-id="transversal4">
+                        Transversal IV
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="semester" id="semester9">
-            <h2>IX Semestre</h2>
-            <div class="courses-grid">
-                <div class="course locked" data-id="practica1">
-                    <div class="course-content">Práctica profesional I</div>
-                </div>
-                <div class="course locked" data-id="seminario-practica1">
-                    <div class="course-content">Seminario de práctica I</div>
-                </div>
-                <div class="course locked" data-id="formacion1">
-                    <div class="course-content">Cursos de formación profesional</div>
+            <!-- VIII Semestre -->
+            <div class="semester">
+                <h2>VIII Semestre</h2>
+                <div class="courses-grid">
+                    <div class="course locked" data-id="seminario2">
+                        Seminario II
+                    </div>
+                    <div class="course locked" data-id="optativos3">
+                        Optativos
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="semester" id="semester10">
-            <h2>X Semestre</h2>
-            <div class="courses-grid">
-                <div class="course locked" data-id="practica2">
-                    <div class="course-content">Practica profesional II</div>
+            <!-- IX Semestre -->
+            <div class="semester">
+                <h2>IX Semestre</h2>
+                <div class="courses-grid">
+                    <div class="course locked" data-id="practica1">
+                        Práctica I
+                    </div>
+                    <div class="course locked" data-id="seminario-practica1">
+                        Seminario Práctica I
+                    </div>
+                    <div class="course locked" data-id="formacion1">
+                        Formación Prof.
+                    </div>
                 </div>
-                <div class="course locked" data-id="seminario-grado2">
-                    <div class="course-content">Seminario de grado II</div>
-                </div>
-                <div class="course locked" data-id="formacion2">
-                    <div class="course-content">Cursos de formación profesional</div>
+            </div>
+
+            <!-- X Semestre -->
+            <div class="semester">
+                <h2>X Semestre</h2>
+                <div class="courses-grid">
+                    <div class="course locked" data-id="practica2">
+                        Práctica II
+                    </div>
+                    <div class="course locked" data-id="seminario-grado2">
+                        Seminario Grado II
+                    </div>
+                    <div class="course locked" data-id="formacion2">
+                        Formación Prof.
+                    </div>
                 </div>
             </div>
         </div>
